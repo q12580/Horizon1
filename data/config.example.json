@@ -3,7 +3,7 @@
   "ai": {
     "provider": "deepseek",
     "model": "DeepSeek-V4-Flash",
-    "api_key_env": "sk-00333582fc5a47489034847340784350",
+    "api_key_env": "666",
     "temperature": 0.3,
     "max_tokens": 4096,
     "throttle_sec": 0,
