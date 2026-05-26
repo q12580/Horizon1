@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "openai",
-    "model": "gpt-4",
-    "api_key_env": "OPENAI_API_KEY",
+    "provider": "deepseek",
+    "model": "DeepSeek-V4-Flash",
+    "api_key_env": "sk-00333582fc5a47489034847340784350",
     "temperature": 0.3,
     "max_tokens": 4096,
     "throttle_sec": 0,
@@ -37,8 +37,8 @@
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 20,
-      "min_score": 100
+      "fetch_top_stories": 5,
+      "min_score": 10
     },
     "rss": [
       {
@@ -110,7 +110,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 6.0,
+    "ai_score_threshold": 8.0,
     "time_window_hours": 24
   },
   "webhook": {
@@ -121,7 +121,7 @@
     "platform": "generic",
     "layout": "markdown",
     "fallback_layout": "markdown",
-    "languages": null,
+    "languages":["en", "zh"],
     "request_body": {
       "msg_type": "interactive",
       "card": {
